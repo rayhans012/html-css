@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MandaFood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Manda Food</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>MANDA FOOD</h1>
+            <p>SMART PEOPLE CHOICE</p>
+            <a href="#menu" class="cta-button">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Melihat kurangnya kesadaran masyarakat dalam mengkonsumsi ikan.
+                        Khususnya ikan bandeng,yang mana banyaknya duri yang terdapat di dalam
+                        ikan bandeng. Sehingga dimulailah bisnis ini dengan menciptakan inovasi
+                        yang terkandung solusi dalam menghilangkan duri ikan bandeng. Dan
+                        memberikan alternatif makanan olahan ikan bandeng yang sehat tanpa
+                        mengurangi gizi yang terkandung di dalam ikan Bandeng.</p>
+                    <p></p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Our Restaurant">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="Ikan Bandeng">Ikan Bandeng</button>
+                <button class="category-btn" data-category="Tambahan">Tambahan</button>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/bandeng.presto.jpg" alt="Bandeng Presto">
+                    <h3>Bandeng Presto</h3>
+                    <p>.....</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 24.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/bandeng.krispi.jpg" alt="Bandeng Krispi">
+                    <h3>Bandeng Krispi</h3>
+                    <p>.....</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 8.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Tambahan">
+                    <img src="images/sambal.bandeng.jpg" alt="Sambal Bandeng">
+                    <h3>Sambal Bandeng</h3>
+                    <p>....</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 12.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/bandeng.serani.jpg" alt="Bandeng Serani">
+                    <h3>Bandeng Serani</h3>
+                    <p>....</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 15.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/tanpa.duri.jpg" alt="Bandeng Tanpa Duri">
+                    <h3>Bandeng tanpa duri</h3>
+                    <p>Bandeng presto empuk tanpa duri, cocok untuk keluarga.</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 18.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/otak-otak.bandeng.2.jpg" alt="Otak-Otak Bandeng">
+                    <h3>Otak-Otak Bandeng</h3>
+                    <p>Otak-otak bandeng gurih, cocok untuk camilan.</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 10.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Ikan Bandeng">
+                    <img src="images/pepes.bandeng.jpg" alt="Pepes Bandeng">
+                    <h3>Pepes Bandeng</h3>
+                    <p>Sambal matah segar khas Bali, cocok untuk bandeng.</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 5.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="Tambahan">
+                    <img src="images/fish skin.jpeg" alt="Kulit Ikan">
+                    <h3>Kulit Ikan</h3>
+                    <p>Sambal bawang pedas, cocok untuk semua menu.</p>
+                    <div class="price-order-container">
+                        <span class="price">Rp 5.000</span>
+                        <button class="order-btn">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Place Your Order</h2>
+            <div class="order-container">
+                <div class="order-form">
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Delivery Address</label>
+                            <textarea id="address" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="items">Selected Items</label>
+                            <div id="selectedItems" class="selected-items"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="total">Total Amount</label>
+                            <div id="totalAmount" class="total-amount">Rp 0</div>
+                        </div>
+                        <button type="submit" class="submit-order">Place Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>JL Kepodang V no 6 Ungaran Jawa Tengah</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>087831150834</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Mandafood@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Manda Food. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
